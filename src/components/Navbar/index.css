@@ -1,0 +1,49 @@
+.light-navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #dcdcdc;
+  padding: 10px;
+}
+.dark-navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #333333;
+}
+.website-logo {
+  width: 40px;
+  height: 40px;
+}
+.menu-container {
+  list-style-type: none;
+  padding: 0;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+}
+.light-menu-heading {
+  color: #000000;
+  font-family: roboto;
+  font-weight: bold;
+}
+.dark-menu-heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: bold;
+}
+.theme-logo-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.theme-logo {
+  width: 40px;
+  height: 40px;
+}
